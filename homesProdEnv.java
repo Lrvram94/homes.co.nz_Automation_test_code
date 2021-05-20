@@ -1,7 +1,5 @@
 package intro;
-
 import org.openqa.selenium.By;
-
 import java.util.List;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -55,7 +53,7 @@ public class homesconz {
 			System.out.println("InCorrect search results displayed");
 		}
 
-		// Test Case 2 A - Petone Production Environment
+		// Test Case 2 A Search- Petone Production Environment
 
 		driver.get("https://www.homes.co.nz");
 		driver.findElement(By.id("autocomplete-search")).sendKeys("Petone");
